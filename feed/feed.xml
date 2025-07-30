@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>11ty Netlify Jumpstart</title>
-	<subtitle>Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, generated sitemap, and RSS feed.</subtitle>
+	<title>TeaHertz Studio</title>
+	<subtitle>Crafting Emotionally Competitive Mixes</subtitle>
 	
 	<link href="http://localhost:8080/feed/" rel="self"/>
 	<link href="http://localhost:8080"/>
 	<updated>2025-07-30T02:48:55Z</updated>
 	<id>http://localhost:8080</id>
 	<author>
-		<name>Stephanie Eckles</name>
+		<name>Dean AM</name>
 	</author>
 	
 	<entry>
