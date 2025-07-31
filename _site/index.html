@@ -1,9 +1,73 @@
----
-layout: base.njk
-templateEngineOverride: md, njk
----
+<!DOCTYPE html>
+<html lang="en"><head>
+    <!-- Generated from the 11ty Netlify Jumpstart: https://github.com/5t3ph/11ty-netlify-jumpstart -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Eleventy v2.0.1" />
 
-<style>
+    <meta property="og:title" content="TeaHertz Studio – Audio Mixing & Mastering" />
+    <meta property="og:description" content="Crafting Emotionally Competitive Mixes" />
+    <meta property="og:image" content="https://teahertzstudio.com/images/logo.jpg" />
+    <meta property="og:url" content="https://teahertzstudio.com/" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TeaHertz Studio – Audio Mixing & Mastering" />
+    <meta name="twitter:description" content="Crafting Emotionally Competitive Mixes" />
+    <meta name="twitter:image" content="https://teahertzstudio.com/images/logo.jpg" />
+
+    <script src="https://kit.fontawesome.com/14c46a8cdd.js" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "TeaHertz Studio",
+      "url": "https://teahertzstudio.com",
+      "logo": "https://teahertzstudio.com/images/logo.png",
+      "sameAs": [
+        "https://instagram.com/teahertz.studio"
+      ]
+    }
+    </script>
+    <title>TeaHertz Studio</title>
+    <meta
+      name="description"
+      content="Crafting Emotionally Competitive Mixes"
+    />
+    <link rel="icon" href="/favicon.png" />
+    <link href="/css/style.css" rel="stylesheet" />
+
+    
+    <meta
+      name="twitter:title"
+      content="TeaHertz Studio"
+    />
+    <meta
+      name="twitter:description"
+      content="Crafting Emotionally Competitive Mixes"
+    />
+
+    <meta
+      name="og:title"
+      content="TeaHertz Studio"
+    />
+    <meta
+      name="og:description"
+      content="Crafting Emotionally Competitive Mixes"
+    />
+
+    <link rel="preload" href="/fonts/baloo-2-v1-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/baloo-2-v1-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="RSS Feed for TeaHertz Studio"
+      href="/feed/"
+    />
+  </head>
+  <body>
+    <style>
   .logo {
     width: 11vmax;
     height: 10vmax;
@@ -290,15 +354,14 @@ templateEngineOverride: md, njk
     <span class="logo">
       <image src="../images/TeaHerzLogoFullNoBack.png"></image>
     </span>
-    <h1 class="tdbc-ink--primary tdbc-mb-none maintitle">{{ meta.siteName }}</h1>
-    <h2 class="tdbc-ink--primary tdbc-mb-none subtitle">{{ meta.siteSubName }}</h1>
+    <h1 class="tdbc-ink--primary tdbc-mb-none maintitle">TeaHertz Studio</h1>
+    <h2 class="tdbc-ink--primary tdbc-mb-none subtitle">Audio Mixing &amp; Mastering</h1>
     <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--secondary tdbc-mt-md tdbc-mx-auto sitedesc">
-      <i>{{ meta.siteDescription }}</i>
+      <i>Crafting Emotionally Competitive Mixes</i>
     </h2>
   </div>
 </header>
 <main class="tdbc-container">
-
   <style>
     
   </style>
@@ -316,10 +379,8 @@ templateEngineOverride: md, njk
 </div> 
 <div class="infobox">
 <span><b>Welcome to TeaHertz Studio, a new destination for audio mixing & mastering services in Limerick, Ireland.</b></span>
-
-<span>With multiple years of experience, TeaHertz Studio specialises in crafting emotionally rich mixes that can compete on streaming services.</span>
-
-<span>Let's work together to make your music come to life!</span>
+<p><span>With multiple years of experience, TeaHertz Studio specialises in crafting emotionally rich mixes that can compete on streaming services.</span></p>
+<p><span>Let's work together to make your music come to life!</span></p>
 </div>
 <div class="scgrid">
 <div class="scelement">
@@ -347,16 +408,11 @@ templateEngineOverride: md, njk
 <iframe class="bandcampbox" style="border: 0; margin: auto; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3799008456/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://dean-am.bandcamp.com/track/silver-shoes">Silver Shoes by Dean AM</a></iframe>
 </div>
 </div> 
-
-
 <div class="contactbox">
 To enquire about rates,
-
-email us at <a href="mailto:teahertz.studio@gmail.com">teahertz.studio@gmail.com</a>
-
-or message us on <a target="_blank" href="https://www.instagram.com/teahertz.studio/">Instagram</a>.
+<p>email us at <a href="mailto:teahertz.studio@gmail.com">teahertz.studio@gmail.com</a></p>
+<p>or message us on <a target="_blank" href="https://www.instagram.com/teahertz.studio/">Instagram</a>.</p>
 </div>
-
  <div class="bottom-social-links">
   <a target="_blank" href="https://www.instagram.com/teahertz.studio/" class="social-icon">
    <i class="fa-brands fa-instagram"></i>
@@ -369,6 +425,15 @@ or message us on <a target="_blank" href="https://www.instagram.com/teahertz.stu
   </a>
   <!-- Add more social icons as needed -->
 </div> 
-{{ content | safe }}
-
 </main>
+
+
+    <footer class="tdbc-background--background footerinfo">
+      <div class="tdbc-container tdbc-text-align-center">
+        <div class="tdbc-row tdbc-ink--light tdbc-mx-auto">
+          <p class="tdbc-mb-none">&copy; 2025 TeaHertz Studio • 1.0.0</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

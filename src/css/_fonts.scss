@@ -1,17 +1,26 @@
 @font-face {
-  font-family: "Baloo 2";
+  font-family: "Segoe UI Black";
   font-style: normal;
   font-weight: normal;
-  src: local("Baloo 2 Regular"), local("Baloo-2-Regular"),
-    url("../fonts/baloo-2-v1-latin-regular.woff2") format("woff2");
+  src: local("Segoe UI Black"), local("Segoe UI Black"),
+    url("../fonts/segoe-ui-black.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Baloo 2";
+  font-family: "Segoe UI Semibold";
   font-style: normal;
   font-weight: 500;
-  src: local("Baloo 2 Medium"), local("Baloo-2-Medium"),
-    url("../fonts/baloo-2-v1-latin-500.woff2") format("woff2");
+  src: local("Segoe UI Semibold"), local("Segoe UI Semibold"),
+    url("../fonts/segoe-ui-semibold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato Semibold";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Lato Semibold"), local("Lato Semibold"),
+    url("../fonts/segoe-ui-semibold.ttf") format("ttf");
   font-display: swap;
 }

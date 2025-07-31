@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventySass);
 
   eleventyConfig.addPassthroughCopy("./src/fonts");
-  eleventyConfig.addPassthroughCopy("./src/img");
+  eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/favicon.png");
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "public",
+      output: "_site",
       layouts: "_layouts",
     },
   };
